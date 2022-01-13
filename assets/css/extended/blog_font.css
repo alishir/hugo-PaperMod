@@ -55,3 +55,19 @@
 .page-footnote {
     font-size: .9em;
 }
+
+body {
+    font-family: Nunito Vazir;
+}
+
+ul.lang-switch li a {
+    font-size: .8em;
+}
+
+:lang(fa) {
+    font-family: "Vazir", "Nunito";
+}
+
+:lang(en) {
+    font-family: "Nunito", "Vazir";
+}
