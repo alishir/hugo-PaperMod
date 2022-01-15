@@ -34,6 +34,25 @@
     }
 }
 
+@font-face {
+    font-family: 'Nunito';
+    src:
+	local('Nunito'),
+	local('Nunito-Regular'),
+	url('/fonts/Nunito-Regular.ttf');
+    
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src:
+	local('Vazir'),
+	local('Vazir-Regular'),
+	url('/fonts/Vazir.woff2');
+    
+}
+
+
 .entry-footer,
 .footer,
 .post-meta {
@@ -57,17 +76,14 @@
 }
 
 body {
-    font-family: Nunito Vazir;
+    font-family: "Nunito", "Vazir";
 }
 
 ul.lang-switch li a {
     font-size: .8em;
 }
 
-:lang(fa) {
-    font-family: "Vazir", "Nunito";
+code {
+    font-family: "Fira Code Bold";
 }
 
-:lang(en) {
-    font-family: "Nunito", "Vazir";
-}
