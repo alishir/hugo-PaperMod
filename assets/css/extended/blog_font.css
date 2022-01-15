@@ -51,11 +51,11 @@
 }
 
 @font-face {
-    font-family: 'Fira Code Bold';
+    font-family: 'Fira Code Regular';
     src:
-	local('Fira Code Bold'),
-	local('FiraCode-Bold'),
-	url('/fonts/FiraCode-Bold.woff');
+	local('Fira Code Regular'),
+	local('FiraCode-Regular'),
+	url('/fonts/FiraCode-Regular.woff');
 }
 
 
@@ -89,7 +89,7 @@ ul.lang-switch li a {
     font-size: .8em;
 }
 
-code {
-    font-family: "Fira Code Bold";
+.post-content pre code {
+    font-family: "Fira Code Regular";
 }
 
