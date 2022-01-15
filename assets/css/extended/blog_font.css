@@ -40,7 +40,6 @@
 	local('Nunito'),
 	local('Nunito-Regular'),
 	url('/fonts/Nunito-Regular.ttf');
-    
 }
 
 @font-face {
@@ -49,7 +48,14 @@
 	local('Vazir'),
 	local('Vazir-Regular'),
 	url('/fonts/Vazir.woff2');
-    
+}
+
+@font-face {
+    font-family: 'Fira Code Bold';
+    src:
+	local('Fira Code Bold'),
+	local('FiraCode-Bold'),
+	url('/fonts/FiraCode-Bold.woff');
 }
 
 
